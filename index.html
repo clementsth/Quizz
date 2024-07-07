@@ -7,8 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-url('naissance-1200x630-RVB.jpg') no-repeat center
-center fixed;					
+            background: url('naissance-1200x630-RVB.jpg') no-repeat center center fixed;
             background-size: cover;
             color: #333;
             display: flex;
@@ -19,7 +18,7 @@ center fixed;
         }
         .container {
             text-align: center;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -57,8 +56,8 @@ center fixed;
         <h1>Question</h1>
         <div class="question">Qui sont mes parents ?</div>
         <ul class="options">
-            <li><button onclick="alert('Réponse correcte !')">1. Alison et Clément</button></li>
-            <li><button onclick="alert('Réponse peut être incorrecte !')">2. Magalie et Philippe</button></li>
+            <li><button onclick="alert('Réponse incorrecte !')">1. Alison et Clément</button></li>
+            <li><button onclick="alert('Réponse correcte !')">2. Magalie et Philippe</button></li>
         </ul>
     </div>
 </body>
